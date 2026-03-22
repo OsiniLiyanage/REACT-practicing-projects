@@ -8,7 +8,6 @@ function App() {
     <div>
       <h1>Hello NewTube</h1>
       <Button />
-      
       <div>
         <MapCard />
       </div>
