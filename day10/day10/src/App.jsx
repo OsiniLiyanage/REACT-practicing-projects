@@ -9,10 +9,10 @@ function App() {
   return (
     <div>
       {/* <Calculation/> */}
-      {/* <DarkMode/> */}
+      <DarkMode/>
       {/* <Sync/> */}
       {/* <Interval/> */}
-      <APIFetch/>
+      {/* <APIFetch/> */}
     </div>
   );
 }

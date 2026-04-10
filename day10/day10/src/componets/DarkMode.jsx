@@ -7,8 +7,6 @@ import "../index.css";
 function DarkMode() {
   const [dark, setDark] = useState();
 
-  
-
   const styles = {
     backgroundColor: dark ? "#000" : "#fff",
     height: "100vh",
@@ -22,7 +20,7 @@ function DarkMode() {
  
   return (
     <div style={styles}>
-      <h1>Hello</h1>
+      <h1>Hello Modes</h1>
       <button onClick={toggleMode}>Switch to {dark ? "Light" : "Dark"}</button>
     </div>
   );
