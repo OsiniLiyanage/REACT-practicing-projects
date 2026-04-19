@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { signupSchema } from "./signup.schema";
+import { signupSchema } from "../../schemas/signupSchema";
 
 function SignUpWithRHFAndZod() {
   const {
