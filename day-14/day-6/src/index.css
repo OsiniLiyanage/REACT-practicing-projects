@@ -1,0 +1,62 @@
+.mainComp{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+ 
+}
+.layout{
+  margin: 40px auto;
+  padding: 20px;
+  background: rgb(213, 219, 229);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+
+.msgdiv {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgb(97, 100, 148);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  color: aliceblue;
+}
+
+.login{
+  padding: 8px 16px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+   background-color: #7470cb;
+  color: white;
+
+}
+
+.logout{
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+   background-color: #e37373;
+  color: white;
+  
+}
+
+.btn{
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+   background-color: #73e389;
+  color: white;
+  
+}
+
